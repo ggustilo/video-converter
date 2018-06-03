@@ -1,0 +1,8 @@
+{
+  "video_file_path":"/test/test_files",
+  "output_path": "/test/processed_files",
+  "current_format": "h264",
+  "desired_format": "avi",
+  "length_of_clip": 15,
+  "control_percentage": 10
+}

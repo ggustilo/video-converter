@@ -1,0 +1,26 @@
+{
+  "name": "video-converter",
+  "version": "0.0.1",
+  "description": "Convert format, slice into clips, rename",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggustilo/video-converter.git"
+  },
+  "author": "ggustilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggustilo/video-converter/issues"
+  },
+  "homepage": "https://github.com/ggustilo/video-converter#readme",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.15",
+    "config": "^1.30.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "winston": "3.0.0-rc6",
+    "yargs": "^11.0.0"
+  }
+}
