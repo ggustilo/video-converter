@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ggustilo/video-converter#readme",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.0.15",
+    "@ffprobe-installer/ffprobe": "^1.0.9",
     "config": "^1.30.0",
     "fluent-ffmpeg": "^2.1.2",
     "winston": "3.0.0-rc6",

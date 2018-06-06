@@ -1,8 +1,10 @@
 {
-  "video_file_path":"/test/testfiles",
-  "output_path": "/test/processed_files",
-  "current_format": ".h264",
-  "desired_format": ".avi",
+  "original_file_path":"./test/test_files",
+  "reformat_output_path": "./test/reformatted_files",
+  "compressed_sliced_output_path": "./test/compressed_sliced_files",
+  "renamed_output_path": "./test/renamed_files",
+  "current_format": "h264",
+  "desired_format": "avi",
   "length_of_clip": 15,
   "control_percentage": 10
 }
