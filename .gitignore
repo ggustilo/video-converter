@@ -68,7 +68,7 @@ typings/
 test/test_files
 test/compressed_files
 test/reformatted_files
-test/renamed_path
+test/renamed_files
 test/sliced_files
 
 ffmpeg-4.0.dmg

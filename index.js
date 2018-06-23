@@ -1,7 +1,8 @@
 const config = require('config'),
 	convert = require('./lib/convert_format'),
 	compress = require('./lib/compress'),
-	slice_videos = require('./lib/slice_videos');
+	slice_videos = require('./lib/slice_videos'),
+	rename_files = require('./lib/rename_files');
 
 const original_file_path = config.get('original_file_path'),
 	reformat_output_path = config.get('reformat_output_path'),
@@ -11,4 +12,5 @@ const original_file_path = config.get('original_file_path'),
 
 // convert(original_file_path, reformat_output_path);
 // compress(reformat_output_path, compressed_output_path);
-slice_videos(compressed_output_path, sliced_output_path);
+// slice_videos(compressed_output_path, sliced_output_path);
+rename_files(sliced_output_path, renamed_output_path);
