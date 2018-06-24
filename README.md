@@ -1,19 +1,13 @@
 # video-converter
-convert format, slice into clips, and rename
+convert format, slice into clips, and set controls
 
-1. Set up the configs
-    - set current path for test files/actual files
-    - set output path for files
-    - set format you want to convert to/from
-    - set duration of clips you want
-    - set percentage of control files you want
+1. Set up the config
+2. Run `npm install` on the command line
+3. To run a step, type:
+    - node index.js --command
+    - command options should be run in order (convert, compress, slice, controls)
+    - check the paths you set up in the config to make sure each command executed properly
+    - run the next command
 
-2. Download ffmpeg and ffprobe and set their PATHS
-
-3. npm install
-
-4. npm test
-
-5. npm run
-
+Note: I have set the timeouts for each step at 3 minutes, but this may become necessary to change for larger file sets.
 

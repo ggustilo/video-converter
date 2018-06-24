@@ -7,5 +7,6 @@
   "current_format": "h264",
   "desired_format": "avi",
   "length_of_clip": 15,
-  "control_percentage": 10
+  "control_percentage": 10,
+  "timeout": 180
 }
